@@ -1,5 +1,6 @@
+/* Section header */
+
 header {
-    outline: 1px solid purple;
     text-align: center;
     background-color: #2c3e50;
     height: 50px;
@@ -7,32 +8,35 @@ header {
 }
 
 header ul {
-    outline: 1px solid purple;
     text-decoration: none;
     list-style: none;
     border: none;
     padding: none;
     font-size: 20px;
-    color: white; 
+    color: gray;
 }
 header li{
-    /* outline: 1px solid green; */
     margin-top: 7px;
 }
 
-header a{
-    text-decoration: none;
-    color: white;
+header li:hover{
+    color: #ffffff;
+    cursor: pointer;
 }
 
+/* Section main */
 .main {
     outline: 1px solid red;
     position: relative;
     height: 350px;
+    background-image: url('../assets/images/urahara.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
 }
 
 footer {
-    outline: 1px solid purple;
+
     text-align: center;
     background-color: #2c3e50;
     color: white;
@@ -42,6 +46,5 @@ footer {
 }
 
 footer p{
-    outline: 1px solid rgb(221, 119, 119);
     margin-top:45px;
 }
