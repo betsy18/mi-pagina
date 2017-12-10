@@ -1,5 +1,21 @@
-* {
-    margin: 0px;
-    padding: 0px;
+header {
+    outline: 1px solid purple;
+    text-align: center;
+    background-color: green;
 }
 
+header nav{
+    text-align: center;
+}
+
+header ul {
+    outline: 1px solid purple;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    padding: none;
+    font-size: 20px;
+}
+header ul, header li{
+    outline: 1px solid green;
+}
