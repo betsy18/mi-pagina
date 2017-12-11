@@ -59,9 +59,14 @@ div{
     padding: 10px;
     font-size: 18px;
     border-radius: 10px;
+    border: none;
 }
 
 .button:hover{
     cursor: pointer;
     filter: grayscale(100%);
+}
+
+section div figure img{
+    max-width: 100%;
 }
