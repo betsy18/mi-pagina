@@ -42,8 +42,6 @@ header li:hover, header h1:hover{
     background-position: initial;
 }
 
-
-
 .section-post div{
     border: 1px solid rgb(17, 153, 153, 0.3);
     text-align:justify; 
@@ -101,7 +99,9 @@ footer p{
         margin-left: 90%;
         display: none;
     }
-
+    section figure{
+        text-align: center;
+    }
     .menu{
         width: 100%;
         background: #cccccc;
@@ -137,6 +137,9 @@ footer p{
         display: none;
     }
 
+    section figure{
+        text-align: center;
+    }
     .menu{
         width: 100%;
         background: #cccccc;
@@ -156,9 +159,9 @@ footer p{
         font-size: 25px;
         color: gray;
     }
-
 }
 
+/* clase para ocultar los elementos */
 .display{
     display: block;
 }
