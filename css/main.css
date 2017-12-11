@@ -48,8 +48,10 @@ footer p{
     margin-top:45px;
 }
 
-div{
-    outline: 1px solid red;
+.section-post div{
+    border: 1px solid rgb(17, 153, 153, 0.3);
+    text-align:justify; 
+    box-sizing: border-box;
 }
 
 .button{
@@ -69,4 +71,23 @@ div{
 
 .section-post img{
     max-width: 100%;
+}
+
+#box{
+    /*ayuda visual para saber como se ubican los elementos*/
+    /*outline: 1px solid red;*/
+    width: 155px;
+    height: 200px;
+    padding: 1px;
+    border: 1px solid #199;
+    
+    float: left;
+    margin-left: 1px;
+}
+
+#box:hover{
+    box-shadow: 0 0 5px #000;
+    max-width: 100%;
+    filter: sepia(60%);
+    color: turquoise;
 }
