@@ -28,7 +28,7 @@ header li:hover{
 .main {
     outline: 1px solid red;
     position: relative;
-    height: 350px;
+    height: 450px;
     background-image: url('../assets/images/urahara.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,9 +40,8 @@ footer {
     text-align: center;
     background-color: #2c3e50;
     color: white;
-    height: 120px;
+    height: 100px;
     position: relative;
-    top:648px;
 }
 
 footer p{
@@ -60,6 +59,7 @@ div{
     font-size: 18px;
     border-radius: 10px;
     border: none;
+    margin-bottom: 7px;
 }
 
 .button:hover{
@@ -67,6 +67,6 @@ div{
     filter: grayscale(100%);
 }
 
-section div figure img{
+.section-post img{
     max-width: 100%;
 }
