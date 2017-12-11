@@ -7,7 +7,11 @@ header {
     position: relative;
 }
 
-header ul {
+header h1{
+    color: gray;
+}
+
+header ul{
     text-decoration: none;
     list-style: none;
     border: none;
@@ -15,11 +19,14 @@ header ul {
     font-size: 20px;
     color: gray;
 }
-header li{
+
+
+
+header li, header h1{
     margin-top: 7px;
 }
 
-header li:hover{
+header li:hover, header h1:hover{
     color: #ffffff;
     cursor: pointer;
 }
@@ -54,6 +61,12 @@ footer p{
     box-sizing: border-box;
 }
 
+.section-post div:hover{
+    box-shadow: 0 0 5px #000;
+    filter: sepia(60%);
+    cursor: pointer;
+}
+
 .button{
     color: #ffffff;
     background-color: rgb(15, 77, 209);
@@ -73,21 +86,42 @@ footer p{
     max-width: 100%;
 }
 
-#box{
-    /*ayuda visual para saber como se ubican los elementos*/
-    /*outline: 1px solid red;*/
-    width: 155px;
-    height: 200px;
-    padding: 1px;
-    border: 1px solid #199;
-    
-    float: left;
-    margin-left: 1px;
+@media screen and (max-width: 768px){
+    header nav {
+        margin: 0px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    header ul{
+        border-bottom:1px solid rgb(255, 255, 255, 0.3);
+        outline: 1px solid white;
+        margin-left: 520px;
+    }
+
+    .menu{
+        display: block;
+        width: 100%;
+        background: #cccccc;
+    }
+
+    .menu, .bt-menu{
+        display: block;
+        padding: 5px;
+        background-color: #2c3e50;
+        text-decoration: none;
+        font-size: 25px;
+        box-sizing: border-box;
+    }
+
+    .menu span{
+        float: right;
+        font-size: 25px;
+        color: gray;
+    }
+
 }
 
-#box:hover{
-    box-shadow: 0 0 5px #000;
-    max-width: 100%;
-    filter: sepia(60%);
-    color: turquoise;
-}
+/* .menu{
+    display: none;
+} */
