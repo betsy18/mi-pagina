@@ -48,3 +48,20 @@ footer {
 footer p{
     margin-top:45px;
 }
+
+div{
+    outline: 1px solid red;
+}
+
+.button{
+    color: #ffffff;
+    background-color: rgb(15, 77, 209);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
